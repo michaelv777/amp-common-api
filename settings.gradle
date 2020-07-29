@@ -1,0 +1,3 @@
+rootProject.name = 'amp-common-api'
+
+include 'amp-jpa-entities'
