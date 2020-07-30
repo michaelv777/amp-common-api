@@ -15,7 +15,7 @@ This template was written to work with Hibernate.
 		<property name="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
     	<property name="hibernate.current_session_context_class">thread</property>
     	<property name="hibernate.connection.autocommit">false</property>
-		<property name="hibernate.connection.url">jdbc:mysql://localhost:3307/allmarket</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3377/allmarket</property>
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
 		<property name="hibernate.connection.username">root</property>
 		<property name="hibernate.connection.password">root</property>
