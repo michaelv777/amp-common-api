@@ -8,7 +8,7 @@
 
 	<DatabaseSettings>
 		<Server>localhost</Server> 
-		<Port>3307</Port> 
+		<Port>3377</Port> 
 		<Database>allmarket</Database> 
 		<UserID>root</UserID> 
 		<PWD>root</PWD> 
@@ -16,7 +16,7 @@
 		<IsUpperCase>n</IsUpperCase>
 		<JDBCConnectionPool>AMP_ConnectionPool</JDBCConnectionPool>
 		<JDBCResource>AMP_Resource</JDBCResource>
-		<JDBCUrl>jdbc:mysql://localhost:3307/allmarket</JDBCUrl>
+		<JDBCUrl>jdbc:mysql://localhost:3377/allmarket</JDBCUrl>
 		<JDBCDriverName>com.mysql.jdbc.Driver</JDBCDriverName>	
 		<dbsDataType>mysql</dbsDataType>
 	</DatabaseSettings>
@@ -39,9 +39,9 @@
 		<hibernateCurrentSessionContextClass>thread</hibernateCurrentSessionContextClass>
 		<hibernateDialect>org.hibernate.dialect.MySQLDialect</hibernateDialect>
 		<hibernateConnectionDriverClass>com.mysql.jdbc.Driver</hibernateConnectionDriverClass>
-		<hibernateConnectionUrl>jdbc:mysql://localhost:3307/allmarket</hibernateConnectionUrl>
+		<hibernateConnectionUrl>jdbc:mysql://localhost:3377/allmarket</hibernateConnectionUrl>
 		<hibernateConnectionServer>localhost</hibernateConnectionServer>
-		<hibernateConnectionPort>3307</hibernateConnectionPort>
+		<hibernateConnectionPort>3377</hibernateConnectionPort>
 		<hibernateConnectionDatatbase>allmarket</hibernateConnectionDatatbase>
 		<hibernateConnectionUsername>root</hibernateConnectionUsername>
 		<hibernateConnectionPassword>root</hibernateConnectionPassword>
